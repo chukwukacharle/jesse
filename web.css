@@ -1,0 +1,115 @@
+Css
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+/* Body */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+header ul li a:hover {
+    color: #ff9800;
+}
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #222;
+    color: #fff;
+}
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.hero span {
+    color: #ff9800;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.btn {
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #e68900;
+}
+/* Sections */
+section {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+/* About */
+.about p {
+    text-align: center;
+    font-size: 18px;
+}
+/* Skills */
+.skills ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.skills li {
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* Contact */
+.contact p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
